@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang ="pt-br">
+
+    <head>
+        <title>Light Login Form</title>
+        <link rel="stylesheet" href="login1.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="./assets/icone.png" />
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    
+    <body>
+
+        <div class="container">
+           
+            <div class="form-box"> 
+
+                <form action="" name="Formfill" onsubmit="return validation()">
+                    <h2>Login</h2>
+
+                    <p id="result"></p>
+
+                    <div class="input-box">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="email" name="Email" placeholder="E-mail">
+                    </div>
+
+                    <div class="input-box">
+                        <i class='bx bxs-lock'></i>
+                        <input type="password" name="Password" placeholder="Password">
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" class="bnt" onclick="validation()" value="Login">
+                    </div>
+
+                    <div class="group">
+                        <span><a href="#">Forget-Password</a></span>
+                        <span><a href="/Site Web/cadastro/cadastro1.html">Register</a></span>
+                    </div>
+
+                </form>
+
+            </div>
+
+        <script src="login1.js"></script>
+
+    </body>
+
+</html>
+
